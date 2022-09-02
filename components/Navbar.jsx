@@ -10,8 +10,8 @@ import {FiKey} from 'react-icons/fi';
 //Implementation of Navbar Component
 const Navbar = () =>(
     <Flex p="2" borderBottom="1px" borderColor="gray.100">
-    <Box fontSize="3xl" color="blue.400" fontWeight="bold" >
-   <Link href="/" paddingLeft="2">Real Estate</Link>
+    <Box fontSize="3xl" color="green.400" fontWeight="bold" >
+   <Link href="/" paddingLeft="2">Real Estate Web App</Link>
     </Box>
 
      <Spacer />
@@ -25,7 +25,7 @@ const Navbar = () =>(
           </Link>
 
           <Link href="/search" passHref>
-            <MenuItem icon={<BsSearch />} >search</MenuItem>
+            <MenuItem icon={<BsSearch />} >Search</MenuItem>
           </Link>
 
           <Link href="/search?purpose=for-sale" passHref>
